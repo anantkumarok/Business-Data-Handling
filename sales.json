@@ -1,0 +1,22 @@
+[
+    {
+        "buyer_name": "Test Manager",
+        "phone_number": "987654321",
+        "address": "Bhopal",
+        "product_id": "001",
+        "product_name": "Ice Cream",
+        "selling_price": 10.0,
+        "quantity": 1,
+        "total_amount": 10.0
+    },
+    {
+        "buyer_name": "Test Manager 2",
+        "phone_number": "123456789",
+        "address": "Sehore",
+        "product_id": "002",
+        "product_name": "antu",
+        "selling_price": 2.0,
+        "quantity": 1,
+        "total_amount": 2.0
+    }
+]
