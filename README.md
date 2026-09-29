@@ -35,12 +35,12 @@ The application uses Json files to store product and sales information.
 - automatic reduce stock after sold out
 - store completed sales records
 
-### Sales Managememt
+### Sales Management
 
-- View Sales Records 
-- Search Sales by buyer name
-- calculate sale summary
-- Display total revenue
+- View sales records 
+- Search sales by buyer name
+- View sale summary
+- Calculate total revenue
 
 ### Reports
 - Generate sales reports
@@ -63,16 +63,21 @@ The application uses Json files to store product and sales information.
 
 - Python 3.x
 - Command Prompt, Powershell, Terminal, or any Python - supported Terminal
+- No external Python packages or required
 
 ### Dependencies 
 
 This project uses only python standard library modules
 
-# How the data is saved
+### Environment
 
-whenever a product is added , updated , deleted  or sold, the program writes the whole list back to the json file.
+- Operating System: Windows, Linux, or macOS
+- Python Version: Python 3.x
+- Execution Environment: Command Prompt, PowerShell, Terminal, or any Python-supported terminal
+- Interface: Command-Line Interface (CLI)
+- External Packages: None
 
-##### Project Structure
+##Project Structure
 
 '''text
 BusinessDataHandling
@@ -87,12 +92,3 @@ BusinessDataHandling
 ├──sales.json
 ├──README.md
 └── .gitignore
-
-
-
-
-## Configuration
-
-No external configuration or environment variables are required.
-
-The application uses the `products.json` and `sales.json` files stored in the project directory.
