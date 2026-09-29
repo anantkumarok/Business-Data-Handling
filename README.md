@@ -87,3 +87,12 @@ BusinessDataHandling
 ├──sales.json
 ├──README.md
 └── .gitignore
+
+
+
+
+## Configuration
+
+No external configuration or environment variables are required.
+
+The application uses the `products.json` and `sales.json` files stored in the project directory.
