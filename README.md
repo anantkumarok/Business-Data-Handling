@@ -43,11 +43,30 @@ The application uses Json files to store product and sales information.
 - Display total revenue
 
 ### Reports
-- Generate sales , inventory, low-stock, reports
+- Generate sales reports
+- Generate inventory reports
+- Generate low stock reports
 
 ### Data Storage
 
 - About Product , sales , data_managememt
+
+## 3. Technologies Used
+- Python 3
+- JSON
+- Python standard Library
+- Command-line Interface
+
+## 4. Requirements and Environment
+
+### Software Requirements
+
+- Python 3.x
+- Command Prompt, Powershell, Terminal, or any Python - supported Terminal
+
+### Dependencies 
+
+This project uses only python standard library modules
 
 # How the data is saved
 
@@ -55,6 +74,7 @@ whenever a product is added , updated , deleted  or sold, the program writes the
 
 ##### Project Structure
 
+'''text
 BusinessDataHandling
 ├──main.py
 ├──product_manager.py
